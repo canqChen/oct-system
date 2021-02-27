@@ -1,0 +1,35 @@
+﻿生成启动时间为 2017/5/15 16:43:07。
+     1>项目“D:\桌面\PCO\Integratedbak\Integratedbak.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Integratedbak.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0804" /Ix64\Debug\ /nologo /fo"x64\Debug\Integratedbak.res" Integratedbak.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\桌面\PCO\x64\Debug\OCT-SYSTEM.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Allied Vision\Vimba_2.0\\VimbaCPP\Lib\Win64" VimbaCPP.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\桌面\PCO\x64\Debug\OCT-SYSTEM.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\桌面\PCO\x64\Debug\OCT-SYSTEM.lib" /MACHINE:X64 x64\Debug\Integratedbak.res
+         x64\Debug\Camera.obj
+         x64\Debug\ChildView.obj
+         x64\Debug\DASDlg.obj
+         x64\Debug\DataCheck.obj
+         x64\Debug\FrameObserver.obj
+         x64\Debug\GifEncoder.obj
+         x64\Debug\Integratedbak.obj
+         x64\Debug\MainFrm.obj
+         x64\Debug\MultiDlg.obj
+         x64\Debug\MyAlgorithm.obj
+         x64\Debug\Mymatrix.obj
+         x64\Debug\RibbonBar.obj
+         x64\Debug\SamplingParam.obj
+         x64\Debug\SamplingProg.obj
+         x64\Debug\ShowDlg.obj
+         x64\Debug\SingleDlg.obj
+         x64\Debug\SplashWnd.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\Threads.obj
+         x64\Debug\TipsDlg.obj
+         x64\Debug\Vimba.obj
+         x64\Debug\WinAppEx_ol.obj
+         Integratedbak.vcxproj -> D:\桌面\PCO\x64\Debug\OCT-SYSTEM.exe
+     1>已完成生成项目“D:\桌面\PCO\Integratedbak\Integratedbak.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.58

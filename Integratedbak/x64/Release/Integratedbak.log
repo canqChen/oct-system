@@ -1,0 +1,47 @@
+﻿生成启动时间为 2017/5/16 19:34:36。
+     1>项目“D:\桌面\PCO\Integratedbak\Integratedbak.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (Integratedbak.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Allied Vision\Vimba_2.0\\" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Release\OCT-SYSTEM.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt MultiDlg.cpp SingleDlg.cpp
+         MultiDlg.cpp
+     1>d:\桌面\pco\integratedbak\ShowDlg.h(45): warning C4091: “static ”: 没有声明变量时忽略“CShowDlg::STATUS”的左侧
+     1>MultiDlg.cpp(142): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         SingleDlg.cpp
+     1>d:\桌面\pco\integratedbak\ShowDlg.h(45): warning C4091: “static ”: 没有声明变量时忽略“CShowDlg::STATUS”的左侧
+     1>SingleDlg.cpp(189): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>SingleDlg.cpp(192): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\桌面\PCO\x64\Release\OCT-SYSTEM.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\Allied Vision\Vimba_2.0\\VimbaCPP\Lib\Win64" VimbaCPP.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\桌面\PCO\x64\Release\OCT-SYSTEM.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\桌面\PCO\x64\Release\OCT-SYSTEM.lib" /MACHINE:X64 x64\Release\Integratedbak.res
+         x64\Release\Camera.obj
+         x64\Release\ChildView.obj
+         x64\Release\DASDlg.obj
+         x64\Release\DataCheck.obj
+         x64\Release\FrameObserver.obj
+         x64\Release\GifEncoder.obj
+         x64\Release\Integratedbak.obj
+         x64\Release\MainFrm.obj
+         x64\Release\MultiDlg.obj
+         x64\Release\MyAlgorithm.obj
+         x64\Release\Mymatrix.obj
+         x64\Release\RibbonBar.obj
+         x64\Release\SamplingParam.obj
+         x64\Release\SamplingProg.obj
+         x64\Release\ShowDlg.obj
+         x64\Release\SingleDlg.obj
+         x64\Release\SplashWnd.obj
+         x64\Release\stdafx.obj
+         x64\Release\Threads.obj
+         x64\Release\TipsDlg.obj
+         x64\Release\Vimba.obj
+         x64\Release\WinAppEx_ol.obj
+         正在生成代码
+         2 of 1779 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         已完成代码的生成
+         Integratedbak.vcxproj -> D:\桌面\PCO\x64\Release\OCT-SYSTEM.exe
+     1>已完成生成项目“D:\桌面\PCO\Integratedbak\Integratedbak.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.90

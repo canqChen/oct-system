@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Camera">
+      <UniqueIdentifier>{aa7076df-dce2-492e-b583-9805c07c650d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Camera">
+      <UniqueIdentifier>{d7d00cf4-cd50-4a7b-aee2-4155f67f9b6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Analysis">
+      <UniqueIdentifier>{d61fa938-76a8-4a29-a3bf-c6928f302495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Analysis">
+      <UniqueIdentifier>{1705ba66-147d-4356-bd8d-af89efd353c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\vld">
+      <UniqueIdentifier>{e8b3e334-9062-4389-89ff-a8ed1fe2bf6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Integratedbak.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DASDlg.h">
+      <Filter>头文件\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Vimba.h">
+      <Filter>头文件\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="RibbonBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SamplingProg.h">
+      <Filter>头文件\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GifEncoder.h">
+      <Filter>头文件\Analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="MyAlgorithm.h">
+      <Filter>头文件\Analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="Mymatrix.h">
+      <Filter>头文件\Analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Myresource.h">
+      <Filter>头文件\Analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="TipsDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Complex.h">
+      <Filter>头文件\Analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="vld.h">
+      <Filter>头文件\vld</Filter>
+    </ClInclude>
+    <ClInclude Include="SamplingParam.h">
+      <Filter>头文件\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameObserver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WinAppEx_ol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Integratedbak.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vimba.cpp">
+      <Filter>源文件\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="DASDlg.cpp">
+      <Filter>源文件\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="RibbonBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SamplingProg.cpp">
+      <Filter>源文件\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataCheck.cpp">
+      <Filter>源文件\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="GifEncoder.cpp">
+      <Filter>源文件\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="MyAlgorithm.cpp">
+      <Filter>源文件\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="Mymatrix.cpp">
+      <Filter>源文件\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads.cpp">
+      <Filter>源文件\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleDlg.cpp">
+      <Filter>源文件\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowDlg.cpp">
+      <Filter>源文件\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiDlg.cpp">
+      <Filter>源文件\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="SamplingParam.cpp">
+      <Filter>源文件\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="TipsDlg.cpp">
+      <Filter>源文件\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameObserver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WinAppEx_ol.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Integratedbak.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\buttons.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\filelarge.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\filesmall.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\main.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\writelarge.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\writesmall.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Integratedbak.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\LOGO.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\title_bar_icon.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\title_bar_icon.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\tb_icon.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ic_play-32.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ic_play-16.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Cargo-Collection-16.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Cargo-Collection-32.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Category_Large.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Category_Small.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\splash.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Category_Analysis_Large.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Category_Analysis_Small.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Integratedbak.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ribbon1.mfcribbon-ms">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
